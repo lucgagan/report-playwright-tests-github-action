@@ -1,0 +1,9 @@
+name: 'Report Playwright Tests'
+description: 'Creates comments on PRs with Playwright test failures'
+author: 'Luc Gagan'
+branding:
+  icon: 'play'
+  color: 'blue'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
